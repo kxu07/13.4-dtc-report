@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 
 
-st.title("The Chalk Pop")
+st.title("Users and Requirements")
 st.subheader(
-    "About us"
+    "Users"
 )
 col1, col2 = st.columns(2)
