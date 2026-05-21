@@ -17,8 +17,7 @@ feedback_matrix = pd.DataFrame(
         "Evaluation": ["How to evaluate performance?", "Is there a qualitative vs quantitative way to judge product performance?", " ", " ", " "]
     }
 )
-st.dataframe(feedback_matrix,
-              hide_index=True)
+
 st.table(feedback_matrix)
 
 
