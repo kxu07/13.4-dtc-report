@@ -13,9 +13,10 @@ pages = {
         st.Page("references.py", title="References")
     ],
     "Appendices": [
-        st.Page("need_finding.py", title="Need Finding Research Summary"),
-        st.Page("narrowing_down.py", title="Narrowing Down Research Summary"),
-        st.Page("interviewing_summary.py", title="Interviewing Summary")
+        st.Page("need_finding.py", title="A. Need Finding Research Summary"),
+        st.Page("narrowing_down.py", title="B. Narrowing Down Research Summary"),
+        st.Page("interviewing_summary.py", title="C. Interviewing Summary"),
+        st.Page("market_research_summary.py", title="D. Market Research Summary")
     ]
 }
 

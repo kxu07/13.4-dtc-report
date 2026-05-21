@@ -5,6 +5,7 @@ from PIL import Image
 st.title("The Chalk Pop")
 
 st.write("image here")
+st.write("[ill number all the figures once we have finalized all the pictures]")
 
 st.subheader("A product to help you evenly chalk your cue")
 st.write("Submitted by Larson Jones, Raajvir Vijay, James Winston, and Kayla Xu")
