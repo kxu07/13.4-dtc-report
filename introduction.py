@@ -19,6 +19,12 @@ with col2:
    st.image("flat_cuetip_intro.png", "Figure 2: Worn down (flat top) cue tip")
 st.image("chalk_intro.png", "Figure 3: Pool chalk (note dome cue tip shaped divot)")
 
+col1a, col2a = st.columns(2)
+with col1a:
+    st.write("When using traditional pool chalk, the end result ends up looking more like Figure 4, with a bald spot in the middle.")
+with col2a:
+    st.image("uneven_chalk.JPG", "Figure 4: Uneven pool chalk application w/ bald spot")
+
 st. subheader("The solution")
 st.write("insert image here after printed")
 st.write("Our solution is the Chalk Pop. It is a device that helps you chalk a cue tip of any geometry by utilizing a half-sphere shaped chalk. It has an ergonomic handle so that it is comfortable to use. The shroud surrounding the chalk helps guide the cue tip to get the right angles and an even chalk application.")
