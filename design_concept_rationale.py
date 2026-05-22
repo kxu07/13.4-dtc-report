@@ -19,6 +19,7 @@ st.write("Our product is essentially a semi-spherical piece of chalk on a applic
 "These two components sit on an ergonomic handle for ease and comfort of use.")
 
 #chalk
+st.image("round_chalk.png", "Figure __: semi-spherical chalk")
 st.write("The chalk itself is semi-spherical, instead of cube shaped like it traditionally is. " \
 "This is because the convex shape of the chalk will be able to evenly coat a dome shaped cue tip and a flat cue tip and everything in between. " \
 "From our interviewing (see Appendix C), we saw that the current chalk shape is not sufficient, and that people do struggle to use the traditional chalk shapes. We decided to change the chalk shape to a semi-sphere to try to insure that all cue tip shapes could be effectively chalked.")
