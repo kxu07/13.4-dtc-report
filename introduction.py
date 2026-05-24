@@ -17,10 +17,10 @@ st.write("We wanted to create an intuitive and effective product that lets playe
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("dome_cuetip_intro.png", "Figure 1: Proper (dome-shaped) pool cue tip")
+    st.image("dome_cuetip_intro.png", "Figure 1: Proper (dome-shaped) pool cue tip [1]")
 with col2:  
-   st.image("flat_cuetip_intro.png", "Figure 2: Worn down (flat top) cue tip")
-st.image("chalk_intro.png", "Figure 3: Pool chalk (note dome cue tip shaped divot)")
+   st.image("flat_cuetip_intro.png", "Figure 2: Worn down (flat top) cue tip [2]")
+st.image("chalk_intro.png", "Figure 3: Pool chalk (note dome cue tip shaped divot) [3]")
 
 col1a, col2a = st.columns(2)
 with col1a:
