@@ -8,9 +8,9 @@ st.subheader(
 )
 col1, col2 = st.columns(2)
 with col1:
-    st.image("mockup_view_1.png")
+    st.image("mockup_view_1.png", "Figure __: Mockup front view")
 with col2:
-    st.image("mockup_view_2.png")
+    st.image("mockup_view_2.png", "Figure __: Mockup back view")
 
 st.subheader("Components")
 #overview
@@ -21,7 +21,7 @@ st.write("Our product is essentially a semi-spherical piece of chalk on an appli
 
 #chalk
 st.image("round_chalk.png", "Figure __: semi-spherical chalk")
-st.write("The chalk itself is semi-spherical, instead of cube shaped like it traditionally is. " \
+st.write("The chalk itself is semi-spherical, instead of cube shaped like it traditionally is. The chalk is two centimeters in diameter. " \
 "This is because the convex shape of the chalk will be able to evenly coat a dome shaped cue tip and a flat cue tip and everything in between. " \
 "From our interviewing (see Appendix B), we saw that the current chalk shape is not sufficient, and that people do struggle to use the traditional chalk shapes. " \
 "We decided to change the chalk shape to a semi-sphere to try to insure that all cue tip shapes could be effectively chalked.")
