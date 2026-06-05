@@ -16,7 +16,8 @@ pages = {
         st.Page("project_def.py", title="A. Project Definition"),
         st.Page("interviewing_summary.py", title="B. Interviewing Summary"),
         st.Page("market_research_summary.py", title="C. Market Research Summary"),
-        st.Page("design_review_summary.py", title="D. Design Review Summary")
+        st.Page("design_review_summary.py", title="D. Design Review Summary"),
+        st.Page("instructions_for_construction.py", title="E. Instructions for Construction")
     ]
 }
 
