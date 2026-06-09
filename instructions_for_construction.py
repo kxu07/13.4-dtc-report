@@ -7,7 +7,7 @@ st.subheader("What it is")
 st.write("The applicator has three parts: a contoured handle held in one hand, a shroud (a thin clear cup) that holds and protects the chalk, and a chalk sphere that sits inside the shroud. " \
 "The handle and shroud are 3D printed; the chalk sphere is shaped from a standard cylindrical chalk piece.")
 
-st.image("chalk_pop_construction.png", "Figure 15: The completed Sphere-and-Shroud applicator: printed handle, clear PETG shroud, and shaped chalk sphere")
+st.image("chalk_pop_construction.png", "Figure 16: The completed Sphere-and-Shroud applicator: printed handle, clear PETG shroud, and shaped chalk sphere")
 
 materials = pd.DataFrame(
     {
