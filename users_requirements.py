@@ -1,11 +1,9 @@
 import streamlit as st
 from PIL import Image
-import pandas as pd
 
 
 st.title("Users and Requirements")
 
-col1, col2 = st.columns(2)
 
 st.subheader("Users")
 st.write("Our solution is targeted towards casual pool players, people who play at public pool tables, and beginner pool players. " \
