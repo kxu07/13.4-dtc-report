@@ -16,7 +16,7 @@ with col2:
    st.image("flat_cuetip_intro.png", "Figure 3: Worn down (flat top) cue tip [2]")
    st.image("chalk_intro.png", "Figure 4: Pool chalk (note dome cue tip shaped divot) [3]")
 st.write("This geometric mismatch prevents flatter cue tips from being able to pick up chalk, as shown in Figure 5.")
-st.image("geometric_mismatch.jpg", "Figure 5: Geometric mismatch between chalk and cue tip")
+st.image("geometric_mismatch.png", "Figure 5: Geometric mismatch between chalk and cue tip")
 st.write("It is important to chalk your cue tip between shots so that players can utilize the friction between the cue and ball to generate spin, execute different shots, etc." \
 " More advanced pool players may avoid this issue by replacing their cue tips or carrying their own chalk, but amateurs may not know how to do so or even that they are supposed to do so. ")
 st.write("We wanted to create an intuitive and effective product that lets players chalk their cue evenly and easily, regardless of skill level.")
