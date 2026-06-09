@@ -57,9 +57,18 @@ st.write(" 7. Sand or deburr the shroud opening and the handle socket until smoo
 
 st.write("Stage C: Shape the chalk sphere")
 st.write(" 8. Take one cylindrical chalk piece (TAOM Pyro 1 inch chalk)")
-st.write(" 9. Mark a line around the side of the cylinder at the point where the rounded top should begin. This line is your grinding line. Grind down to it, not past it")
-st.write(" 10. Hold the chalk against the bench sander and grind the top down to a smooth hemisphere, rotating the chalk evenly so the dome stays symmetric. Stop at the marked line")
-
+st.write(" 9. Mark a line around the side of the cylinder at the point where the rounded top should begin. This line is your grinding line. Grind down to it, not past it.")
+st.write(" 10. Hold the chalk against the bench sander as demonstrated in Figure 17 and grind the top down to a smooth hemisphere, rotating the chalk evenly so the dome stays symmetric. Stop at the marked line. " \
+"Halfway through, the chalk should look like Figure 18, and in the end, it should like Figure 19.")
+st.image("shaping_chalk.png", "Figure 17: Shaping chalk with bench sander")
+st.image("halfway_chalk.png", "Figure 18: The chalk sanded halfway")
+st.image("round_chalk.png","Figure 19: The final round chalk")
 st.write("Stage D: Assemble")
-st.write(" 11. Seat the chalk sphere inside the shroud with the hemispherical top facing the opening")
-st.write(" 12. Fit the shroud into the socket on the handle. Apply hot melt glue and press fit.")
+st.write(" 11. Seat the chalk sphere inside the shroud with the hemispherical top facing the opening, as shown in Figure 20.")
+st.image("chalk_in_shroud.png", "Figure 20: The chalk fit in the shroud")
+st.write(" 12. Fit the shroud into the socket on the handle. Apply hot melt glue and press fit. The final product should look like Figure 21.")
+st.image("chalk_pop_construction.png", "Figure 21: The final product")
+
+st.subheader("Print files")
+st.write("https://drive.google.com/file/d/1Tjs_2N6oJDkcpyOzUfFE6fgUVun6rhmp/view?usp=drive_link")
+st.write("https://drive.google.com/file/d/1ryH1u3gOcSCDPcMx62YTEfVkxG-LjsAQ/view?usp=drive_link")
