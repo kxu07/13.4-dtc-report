@@ -4,8 +4,9 @@ pages = {
     "Homepage": [
         st.Page("homepage.py", title="Home")
     ],
-    "Report Sections": [
+    "Report Sections": [  
         st.Page("executive_summary.py", title="Executive Summary"),
+        st.Page("list_of_figures.py", title="List of Tables and Figures"),
         st.Page("introduction.py", title="Introduction"),
         st.Page("users_requirements.py", title="Users and Requirements"),
         st.Page("design_concept_rationale.py", title="Design Concept and Rationale"),

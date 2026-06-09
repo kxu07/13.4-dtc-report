@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Project Definition")
+st.title("Appendix A: Project Definition")
 
 st.subheader("Mission Statement")
 st.write("Recreational pool players struggle with reliably coating the tips of their cue sticks with chalk before shots, since the current chalk cubes have divots that don’t suit all pool cues, especially those present in game rooms and bars (hence, disproportionately affecting recreational players over professional), forcing players to constantly re chalk and also cause breakage of the chalk cubes. " \

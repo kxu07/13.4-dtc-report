@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Design Review Summary")
+st.title("Appendix D: Design Review Summary")
 
 st.subheader("Introduction")
 st.write("On Thursday, May 14, our team presented our current top two prototypes and our progress to the rest of the class and our professors to receive feedback." \
@@ -14,6 +14,7 @@ st.write("On the guide tube, the main feedback we received was that 1) we needed
 st.write("On the sphere and shroud, we received a lot more feedback. " \
 "Below is a chart of the specific pieces of feedback, categorized into assembly questions, use questions, and evaluation questions.")
 
+st.subheader("Design Feedback")
 feedback_matrix = pd.DataFrame(
     {
         "Assembly": ["How to attach the sphere?", "Can you replace the sphere", "What material is the shroud", "Could different shroud materials improve perofrmance", "Where is the shroud chalk coming from?"],

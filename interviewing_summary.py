@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Interviewing Summary")
+st.title("Appendix B: Interviewing Summary")
 st.write("A series of user interviews was conducted to get a better sense of how people actually chalk their pool cues, especially when it comes to using the divot. " \
 "The group included a mix of players, from people who only play occasionally to others who play a few times a week." \
 " The questions we asked each person are as follows:")

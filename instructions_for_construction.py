@@ -9,6 +9,7 @@ st.write("The applicator has three parts: a contoured handle held in one hand, a
 
 st.image("chalk_pop_construction.png", "Figure 16: The completed Sphere-and-Shroud applicator: printed handle, clear PETG shroud, and shaped chalk sphere")
 
+st.subheader("Bill of Materials")
 materials = pd.DataFrame(
     {
         "Item": ["Handle", "Shroud", "Chalk sphere", "Adhesive"],
