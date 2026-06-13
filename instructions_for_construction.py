@@ -7,7 +7,7 @@ st.subheader("What it is")
 st.write("The applicator has three parts: a contoured handle held in one hand, a shroud (a thin clear cup) that holds and protects the chalk, and a chalk sphere that sits inside the shroud. " \
 "The handle and shroud are 3D printed; the chalk sphere is shaped from a standard cylindrical chalk piece.")
 
-st.image("chalk_pop_construction.png", "Figure 16: The completed Sphere-and-Shroud applicator: printed handle, clear PETG shroud, and shaped chalk sphere", width=300)
+st.image("chalk_pop_construction.png", "Figure 16: The completed Sphere-and-Shroud applicator: printed handle, clear PETG shroud, and shaped chalk sphere", width=350)
 
 st.subheader("Bill of Materials")
 materials = pd.DataFrame(
@@ -72,7 +72,7 @@ st.write("Stage D: Assemble")
 st.write(" 11. Seat the chalk sphere inside the shroud with the hemispherical top facing the opening, as shown in Figure 20.")
 st.image("chalk_in_shroud.png", "Figure 20: The chalk fit in the shroud")
 st.write(" 12. Fit the shroud into the socket on the handle. Apply hot melt glue and press fit. The final product should look like Figure 21.")
-st.image("chalk_pop_construction.png", "Figure 21: The final product")
+st.image("chalk_pop_construction.png", "Figure 21: The final product", width=400)
 
 st.subheader("Print files")
 st.write("https://drive.google.com/file/d/1Tjs_2N6oJDkcpyOzUfFE6fgUVun6rhmp/view?usp=drive_link")
