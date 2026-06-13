@@ -2,12 +2,9 @@ import streamlit as st
 from PIL import Image, ImageOps
 
 st.title("Introduction")
-st.subheader(
-    "The problem and our solution"
-)
 
 st.subheader("The problem")
-st.write("In most public pool halls/pool tables, the pool cues are not constantly being maintained, so the cue tip begins to wear down and lose its dome shape as seen in Figure 2, to a flatter tip as shown in Figure 3. " \
+st.write("In most public pool halls/pool tables, the pool cues are not regularly being maintained, so the cue tip begins to wear down and lose its dome shape as seen in Figure 2, to a flatter tip as shown in Figure 3. " \
 "Most pool chalks are made with a divot in the middle that fits a dome shaped cue as shown in Figure 4. ")
 col1, col2 = st.columns(2)
 with col1:
@@ -39,5 +36,6 @@ st.image("chalk_pop.png", "Figure 7: The Chalk Pop")
 st.write("Our solution is the Chalk Pop. " \
 "It is a device that helps you chalk a cue tip of any geometry by utilizing a half-sphere shaped chalk. " \
 "It has an ergonomic handle so that it is comfortable to use. " \
-"The shroud surrounding the chalk helps guide the cue tip to get the right angles and an even chalk application.")
+"The shroud surrounding the chalk helps guide the cue tip to get the right angles and an even chalk application. " \
+"In this report, we will talk about what it does, who it is for, what requirements it fulfills, and how it is made.")
 col1, col2 = st.columns(2)
