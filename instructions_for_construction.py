@@ -7,7 +7,7 @@ st.subheader("What it is")
 st.write("The applicator has three parts: a contoured handle held in one hand, a shroud (a thin clear cup) that holds and protects the chalk, and a chalk sphere that sits inside the shroud. " \
 "The handle and shroud are 3D printed; the chalk sphere is shaped from a standard cylindrical chalk piece.")
 
-st.image("chalk_pop_construction.png", "Figure 16: The completed Sphere-and-Shroud applicator: printed handle, clear PETG shroud, and shaped chalk sphere")
+st.image("chalk_pop_construction.png", "Figure 16: The completed Sphere-and-Shroud applicator: printed handle, clear PETG shroud, and shaped chalk sphere", width=300)
 
 st.subheader("Bill of Materials")
 materials = pd.DataFrame(
@@ -61,9 +61,13 @@ st.write(" 8. Take one cylindrical chalk piece (TAOM Pyro 1 inch chalk)")
 st.write(" 9. Mark a line around the side of the cylinder at the point where the rounded top should begin. This line is your grinding line. Grind down to it, not past it.")
 st.write(" 10. Hold the chalk against the bench sander as demonstrated in Figure 17 and grind the top down to a smooth hemisphere, rotating the chalk evenly so the dome stays symmetric. Stop at the marked line. " \
 "Halfway through, the chalk should look like Figure 18, and in the end, it should like Figure 19.")
-st.image("shaping_chalk.png", "Figure 17: Shaping chalk with bench sander")
-st.image("halfway_chalk.png", "Figure 18: The chalk sanded halfway")
-st.image("round_chalk.png","Figure 19: The final round chalk")
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.image("shaping_chalk.png", "Figure 17: Shaping chalk with bench sander")
+with col2:
+    st.image("halfway_chalk.png", "Figure 18: The chalk sanded halfway")
+with col3:
+    st.image("round_chalk.png","Figure 19: The final round chalk")
 st.write("Stage D: Assemble")
 st.write(" 11. Seat the chalk sphere inside the shroud with the hemispherical top facing the opening, as shown in Figure 20.")
 st.image("chalk_in_shroud.png", "Figure 20: The chalk fit in the shroud")
