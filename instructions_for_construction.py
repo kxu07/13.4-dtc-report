@@ -72,7 +72,7 @@ st.write("Stage D: Assemble")
 st.write(" 11. Seat the chalk sphere inside the shroud with the hemispherical top facing the opening, as shown in Figure 20.")
 st.image("chalk_in_shroud.png", "Figure 20: The chalk fit in the shroud")
 st.write(" 12. Fit the shroud into the socket on the handle. Apply hot melt glue and press fit. The final product should look like Figure 21.")
-st.image("chalk_pop_construction.png", "Figure 21: The final product", width=400)
+st.image("chalk_pop_construction.png", "Figure 21: The final product", width=350)
 
 st.subheader("Print files")
 st.write("https://drive.google.com/file/d/1Tjs_2N6oJDkcpyOzUfFE6fgUVun6rhmp/view?usp=drive_link")

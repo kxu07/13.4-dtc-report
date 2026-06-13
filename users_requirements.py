@@ -22,4 +22,4 @@ st.write("Most importantly, our product needs to solve the core problem and prov
 "We want to make sure that people who have never seen our product can easily figure out how to correctly use our product. A" \
 "dditionally, we want to make sure that anyone using our product is still compliant with the pool regulations set by World Pool Billiards Association. "
 "For example, in rule 2.2, the WPA lays out composition requirements for chalk. " \
-"Lastly, it is also important that our product doesn't damage the cue stick and doesn't have any adverse side effects.")
+"Lastly, it is also important that our product doesn't damage the cue stick. Novice players and players using borrowed cue sticks should know that our solution would not damage their cue.")

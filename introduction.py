@@ -11,7 +11,7 @@ with col1:
     st.image("dome_cuetip_intro.png", "Figure 2: Proper (dome-shaped) pool cue tip [1]")
 with col2:  
    st.image("flat_cuetip_intro.png", "Figure 3: Worn down (flat top) cue tip [2]")
-   st.image("chalk_intro.png", "Figure 4: Pool chalk (note dome cue tip shaped divot) [3]")
+   st.image("chalk_intro.png", "Figure 4: Pool chalk (note dome cue tip shaped divot) [3]", width=200)
 st.write("This geometric mismatch prevents flatter cue tips from being able to pick up chalk, as shown in Figure 5.")
 st.image("geometric_mismatch.png", "Figure 5: Geometric mismatch between chalk and cue tip")
 st.write("It is important to chalk your cue tip between shots so that players can utilize the friction between the cue and ball to generate spin, execute different shots, etc." \
