@@ -21,7 +21,7 @@ st.write("We wanted to create an intuitive and effective product that lets playe
 col1a, col2a = st.columns(2)
 
 st.write("When using traditional pool chalk, the end result ends up looking more like Figure 6, with a bald spot in the middle.")
-img = Image.open("uneven_chalk.JPG")
+img = Image.open("bald_spot.png")
 img = ImageOps.exif_transpose(img)
 st.image(img, "Figure 6: Uneven pool chalk application w/ bald spot")
 st.write("Evenly chalking your pool cue is important because it introduces rigid, abrasive particles that help increase friction between the smooth cue tip and smooth resin cue ball. " \
